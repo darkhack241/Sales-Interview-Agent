@@ -1,0 +1,6 @@
+
+reflex==0.8.17a1
+anthropic
+elevenlabs
+google-genai
+google-generativeai
