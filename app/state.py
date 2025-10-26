@@ -196,7 +196,7 @@ class InterviewState(rx.State):
     @rx.event
     def setup_audio_listeners(self):
         return rx.call_script(
-            f"setupAudioEventListeners('{InterviewState.set_ai_speaking.get_full_name()}', '{InterviewState.set_ai_speaking.get_full_name()}')"
+            f"setupAudioEventListeners('{InterviewState.set_ai_speaking.get_name()}', '{InterviewState.set_ai_speaking.get_name()}')"
         )
 
     @rx.event(background=True)
