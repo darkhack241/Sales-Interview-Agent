@@ -110,7 +110,7 @@ def interview_view() -> rx.Component:
                                     class_name="text-gray-800",
                                 ),
                                 rx.el.p(
-                                    "Your live transcript will appear here...",
+                                    "Your live transcript will not appear here...",
                                     class_name="text-gray-400 italic",
                                 ),
                             ),
